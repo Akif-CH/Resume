@@ -113,7 +113,10 @@ section{
     color: white;
 }
 span{
-    color: #007aff;
+    /* color: #007aff; */
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(#ff0000, #0000ff);
 
 }
 .home-content h3{
@@ -145,12 +148,15 @@ span{
 }
 .home-content .bold{
     font-weight: bolder;
-    color: #007aff;
     font-size: x-large;
+        -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(#ff0000, #0000ff);
 }
 .hhh{
     text-align: center;
     font-family: sans-serif;
+    font-size: x-large;
     border: 3px solid #020024;
     background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 39%, rgba(0, 212, 255, 1) 92%)
 }
