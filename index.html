@@ -28,13 +28,11 @@
         <div class="home-content">
             <h1>HI, Its <span>Talha saeed</span></h1>
             <h3 class="typing-text">I'm a <span class="bl">Graphic Designers</span></h3>
-                        <p class="blank">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quisquam</p>
-                        <p class="bold">ABOUT ME:</p>
-            <p>
-Hello, I'm Talha saeed, a graphic designer with a passion for creating beautiful and functional designs.
+            <p class="bold">ABOUT ME:</p>
+            <p>Hello, I'm Talha saeed, a graphic designer with a passion for creating beautiful and functional designs.
 With 3 years of experience in the industry, I've worked on projects ranging from branding and identity to Business Card design and Social media design. I believe that design is not just about making things look good. but about solving problems and enhancing the user experience.
 When I'm not designing, you can find me exploring new coffee shops or hiking in the great outdoors.</p>
-            <div class="social-icons">
+                                <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/raay_talha_saeed?igsh=MTY5aWJ2a3ljZ2Rraw=="><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -42,5 +40,52 @@ When I'm not designing, you can find me exploring new coffee shops or hiking in 
             <h3><a href="mailto:ts56465646@gmail.com" class="btn">Hire Me</a></h3>
         </div>
     </section>
+    <h2 class="hhh">My Work</h2>
+     <section class="section">
+        <div class="slider">
+            <div class="slide">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="st first">
+                    <img src="Img/w1.jpg" alt="">
+                </div>
+                <div class="st">
+                    <img src="Img/w2.jpg" alt="">
+                </div>
+                <div class="st">
+                    <img src="Img/w3.jpg" alt="">
+                </div>
+                <div class="st">
+                    <img src="Img/w4.jpg" alt="">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="a-b1"></div>
+                    <div class="a-b2"></div>
+                    <div class="a-b3"></div>
+                    <div class="a-b4"></div>
+                </div>
+            </div>
+
+            <div class="nav-m">
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio2" class="m-btn"></label>
+                <label for="radio3" class="m-btn"></label>
+                <label for="radio4" class="m-btn"></label>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        },5000);
+    </script>
 </body>
 </html>
